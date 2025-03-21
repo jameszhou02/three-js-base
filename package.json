@@ -1,0 +1,25 @@
+{
+  "name": "three-js-base",
+  "version": "1.0.0",
+  "description": "A Three.js TypeScript base project",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm dlx vite",
+    "build": "tsc && pnpm dlx vite build",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cannon-es": "^0.20.0",
+    "cannon-es-debugger": "^1.0.0",
+    "three": "^0.174.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.174.0",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.2"
+  }
+}
